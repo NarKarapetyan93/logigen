@@ -16,5 +16,19 @@
     "fs-extra": "^11.3.0",
     "inquirer": "^12.3.3",
     "pluralize": "^8.0.0"
+  },
+  "bin": {
+    "logigen": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarKarapetyan93/logigen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NarKarapetyan93/logigen/issues"
+  },
+  "homepage": "https://github.com/NarKarapetyan93/logigen#readme",
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

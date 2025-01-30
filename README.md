@@ -1,13 +1,13 @@
-# Advanced Code Generator
+# @logismiko/logigen
 
 A flexible and powerful code generator for React, Vue, and Express applications. Generate components, services, controllers, and more with support for TypeScript, testing, and best practices.
 
 ## Installation
 
 ```bash
-npm install -g advanced-code-generator
+npm install -g @logismiko/logigen
 # or
-yarn global add advanced-code-generator
+yarn global add @logismiko/logigen
 ```
 
 ## Features
