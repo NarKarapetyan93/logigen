@@ -25,9 +25,9 @@ yarn global add @logismiko/logigen
 ### Basic Commands
 
 ```bash
-generate component --name UserProfile --framework react --typescript
-generate controller --name User --path src/controllers
-generate service --name Authentication --typescript
+logigen component --name UserProfile --framework react --typescript
+logigen controller --name User --path src/controllers
+logigen service --name Authentication --typescript
 ```
 
 ### Available Generators
@@ -35,7 +35,7 @@ generate service --name Authentication --typescript
 #### Frontend
 - Components
 ```bash
-generate component --name Button
+logigen component --name Button
   --framework react|vue
   --typescript      # Optional: Use TypeScript
   --path src/components
@@ -43,7 +43,7 @@ generate component --name Button
 
 - Hooks (React)
 ```bash
-generate hook --name useFetch
+logigen hook --name useFetch
   --typescript      # Optional: Use TypeScript
   --path src/hooks
 ```
@@ -51,28 +51,28 @@ generate hook --name useFetch
 #### Backend
 - Controllers
 ```bash
-generate controller --name User
+logigen controller --name User
   --typescript      # Optional: Use TypeScript
   --path src/controllers
 ```
 
 - Services
 ```bash
-generate service --name Authentication
+logigen service --name Authentication
   --typescript      # Optional: Use TypeScript
   --path src/services
 ```
 
 - Models
 ```bash
-generate model --name Product
+logigen model --name Product
   --typescript      # Optional: Use TypeScript
   --path src/models
 ```
 
 - Routes
 ```bash
-generate route --name User
+logigen route --name User
   --typescript      # Optional: Use TypeScript
   --path src/routes
 ```

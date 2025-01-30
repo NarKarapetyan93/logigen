@@ -1,10 +1,10 @@
-const inquirer = require('inquirer');
-const fs = require('fs-extra');
-const path = require('path');
-const ejs = require('ejs');
-const chalk = require('chalk');
-const Case = require('case');
-const pluralize = require('pluralize');
+import inquirer from "inquirer";
+import fs from "fs-extra";
+import path from "path";
+import ejs from "ejs";
+import chalk from "chalk";
+import Case from "case";
+import pluralize from "pluralize";
 
 const TEMPLATES = {
   component: {

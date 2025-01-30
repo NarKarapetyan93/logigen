@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-const { program } = require('commander');
-const { generateCode } = require('../src/index');
+import { program } from 'commander';
+import { generateCode } from '../src';
 
 program
   .version('1.0.0')
