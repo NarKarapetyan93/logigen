@@ -377,6 +377,4 @@ async function writeFile(content, config) {
   }
 }
 
-module.exports = {
-  generateCode
-};
+export { generateCode };
