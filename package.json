@@ -1,5 +1,5 @@
 {
-  "name": "@logismiko/code-generator",
+  "name": "@logismiko/logigen",
   "version": "1.0.0",
   "description": "A flexible code generator for React, Vue and Express.",
   "main": "src/index.js",
